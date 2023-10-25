@@ -9,11 +9,12 @@ conda activate summerCV
 
 ## ROS Setup - Image stream
 ```
-export ROS_IP=192.168.0.100 # hostname -I
+
 export ROS_MASTER_URI=http://192.168.0.102:11311
 ```
 
-## Dataset Download
+<!-- export ROS_IP=192.168.0.100 # hostname -I -->
+<!-- ## Dataset Download
 ```
 git lfs install
 ```
@@ -38,7 +39,7 @@ Run
 ```
 git lfs pull
 ```
-to pull all images and not just the code.
+to pull all images and not just the code. -->
 
 
 ## plot trajectory
