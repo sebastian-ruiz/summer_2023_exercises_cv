@@ -5,7 +5,7 @@ import torch.functional as F
 from torch.utils.data import DataLoader
 import torchvision.transforms as transforms
 
-from model import KeyPointClassifier as KeyPointClassifierModel
+from classification_model.model import KeyPointClassifier as KeyPointClassifierModel
 
 
 # TODO: exercise 3b -->

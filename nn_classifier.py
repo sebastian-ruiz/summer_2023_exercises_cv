@@ -4,7 +4,7 @@ import numpy as np
 from rich import print
 from timeit import default_timer as timer
 from helpers import visualise
-from classification_model import KeyPointClassifier
+from classification_model.keypoint_classifier import KeyPointClassifier
 from img_loader import ImgLoader
 
 

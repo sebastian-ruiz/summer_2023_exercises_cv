@@ -5,8 +5,8 @@ import torch.nn as nn
 from tqdm import tqdm
 import numpy as np
 import matplotlib.pyplot as plt
-from model import KeyPointClassifier as KeyPointClassifierModel
-from dataloader import CustomDataset2D, CustomDataset3D, get_label_set, get_data_split
+from keypoint_classifier.model import KeyPointClassifier as KeyPointClassifierModel
+from keypoint_classifier.dataloader import CustomDataset2D, CustomDataset3D, get_label_set, get_data_split
 
 
 # Constants
